@@ -1,0 +1,18 @@
+version: 1
+project:
+  title: FreeIPA SoftCloud
+  description: Computational publication and research platform for FreeIPA Identity & Access Management on Software Cloud.
+  github: https://github.com/soft-cloud-dev/freeipa
+  toc:
+    - file: README.md
+    - file: introduction.md
+    - file: architecture.md
+    - title: Computational Notebooks
+      children:
+        - file: notebooks/experiment.ipynb
+site:
+  template: book-theme
+  options:
+    logo: images/logo.svg
+    logo_dark: images/logo-dark.svg
+    favicon: images/favicon.ico
