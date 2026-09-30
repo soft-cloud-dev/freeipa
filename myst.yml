@@ -18,6 +18,9 @@ project:
     - file: README.md
     - file: introduction.md
     - file: architecture.md
+    - title: Computational Notebooks
+      children:
+        - file: notebooks/experiment.ipynb
 site:
   template: book-theme
   nav:
